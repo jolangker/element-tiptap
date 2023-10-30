@@ -10,7 +10,8 @@
     "build:lib": "vite build",
     "lint": "eslint --ext .ts src",
     "lint:fix": "yarn lint --fix",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "yarn build:lib"
   },
   "main": "./lib/element-tiptap.umd.js",
   "module": "./lib/element-tiptap.es.js",
